@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(196, 180, 180);
+}
+
+p{
+    margin: 1%;
+    border: 2px solid purple;
+}
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        /* border: 1px solid green; */
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 786px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        margin-bottom: 1%;
+        /* border: 1px solid green; */
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+h1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10%;
+}
